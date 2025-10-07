@@ -1,3 +1,4 @@
+```js 
 let nombre1= "Ernest";
 console.log(nombre1);
 const PI= 3.1416;
@@ -54,9 +55,10 @@ console.log(multiplicar(2, 4));
 
 
 function esMayorDeEdad(edad){
-if(edad>=18){
-    return true;
-}else{
-    return false;
+    if(edad>=18){
+        return true;
+    }else{
+        return false;
+    }
 }
-}
+```
